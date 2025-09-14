@@ -3,8 +3,7 @@ public class _83_Remove_Duplicates_from_Sorted_List {
 
     }
 
-
-    //      Definition for singly-linked list.
+    // Definition for singly-linked list.
     public class ListNode {
         int val;
         ListNode next;
@@ -21,8 +20,7 @@ public class _83_Remove_Duplicates_from_Sorted_List {
             this.next = next;
         }
     }
-
-
+    
     public ListNode deleteDuplicates(ListNode head) {
         if (head == null) return null;
         ListNode cursor = head;
