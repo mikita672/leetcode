@@ -1,6 +1,6 @@
 public class _70_Climbing_Stairs {
     public static void main(String[] args) {
-
+        climbStairs(5);
     }
 
     public static int climbStairs(int n) {
