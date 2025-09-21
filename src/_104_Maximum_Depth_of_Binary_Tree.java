@@ -1,6 +1,6 @@
 public class _104_Maximum_Depth_of_Binary_Tree {
     public static void main(String[] args) {
-
+        maxDepth(null);
     }
 
 
