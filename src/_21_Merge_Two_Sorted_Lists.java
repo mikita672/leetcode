@@ -13,8 +13,6 @@ public class _21_Merge_Two_Sorted_Lists {
         list2.next.val = 3;
         list2.next.next = new ListNode();
         list2.next.next.val = 4;
-
-        ListNode list3 = mergeTwoLists(list1, list2);
     }
 
 

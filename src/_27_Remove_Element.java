@@ -1,8 +1,6 @@
 public class _27_Remove_Element {
     public static void main(String[] args) {
-        int[] nums = {0, 1, 2, 2, 3, 0, 4, 2};
-
-        int res = removeElement(nums, 2);
+        
     }
 
     public static int removeElement(int[] nums, int val) {
