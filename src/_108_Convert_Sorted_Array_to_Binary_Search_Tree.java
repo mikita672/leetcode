@@ -3,6 +3,7 @@ public class _108_Convert_Sorted_Array_to_Binary_Search_Tree {
 
     }
 
+    @SuppressWarnings("unused")
     private static class TreeNode {
         int val;
         TreeNode left;
@@ -22,6 +23,7 @@ public class _108_Convert_Sorted_Array_to_Binary_Search_Tree {
         }
     }
 
+    @SuppressWarnings("unused")
     private static TreeNode sortedArrayToBST(int[] nums) {
         return sortedArrayToBSTRecur(nums, 0, nums.length - 1);
     }

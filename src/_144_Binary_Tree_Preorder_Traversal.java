@@ -10,6 +10,7 @@ public class _144_Binary_Tree_Preorder_Traversal {
         System.out.println("Recursive: " + preorderTraversal(root));
     }
 
+    @SuppressWarnings("unused")
     private static class TreeNode {
         int val;
         TreeNode left;

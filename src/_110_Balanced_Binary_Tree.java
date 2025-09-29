@@ -3,6 +3,7 @@ public class _110_Balanced_Binary_Tree {
 
     }
 
+    @SuppressWarnings("unused")
     private static class TreeNode {
         int val;
         TreeNode left;

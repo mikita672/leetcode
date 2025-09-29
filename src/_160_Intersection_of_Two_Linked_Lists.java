@@ -3,6 +3,7 @@ public class _160_Intersection_of_Two_Linked_Lists {
 
     }
 
+    @SuppressWarnings("unused")
     private static class ListNode {
         int val;
         ListNode next;
@@ -13,11 +14,12 @@ public class _160_Intersection_of_Two_Linked_Lists {
         }
     }
 
+    @SuppressWarnings("unused")
     private static ListNode getIntersectionNode(ListNode headA, ListNode headB) {
         ListNode pointerA = headA;
         ListNode pointerB = headB;
 
-        while(pointerA != pointerB){
+        while (pointerA != pointerB) {
             pointerA = (pointerA == null) ? headB : pointerA.next;
             pointerB = (pointerB == null) ? headA : pointerB.next;
         }

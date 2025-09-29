@@ -3,6 +3,7 @@ public class _111_Minimum_Depth_of_Binary_Tree {
 
     }
 
+    @SuppressWarnings("unused")
     private static class TreeNode {
         int val;
         TreeNode left;
@@ -22,8 +23,10 @@ public class _111_Minimum_Depth_of_Binary_Tree {
         }
     }
 
+    @SuppressWarnings("unused")
     private int minDepth(TreeNode root) {
-        if (root == null) return 0;
+        if (root == null)
+            return 0;
 
         if (root.right == null && root.left == null) {
             return 1;

@@ -26,6 +26,7 @@ public class _203_Remove_Linked_List_Elements {
         int val;
         ListNode next;
 
+        @SuppressWarnings("unused")
         ListNode() {
         }
 

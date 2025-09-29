@@ -11,6 +11,7 @@ public class _145_Binary_Tree_Postorder_Traversal {
         System.out.println(postorderTraversal(first1));
     }
 
+    @SuppressWarnings("unused")
     private static class TreeNode {
         int val;
         TreeNode left;

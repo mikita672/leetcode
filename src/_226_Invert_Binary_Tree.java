@@ -3,6 +3,7 @@ public class _226_Invert_Binary_Tree {
 
     }
 
+    @SuppressWarnings("unused")
     private static class TreeNode {
         int val;
         TreeNode left;
@@ -22,9 +23,10 @@ public class _226_Invert_Binary_Tree {
         }
     }
 
-
+    @SuppressWarnings("unused")
     private static TreeNode invertTree(TreeNode root) {
-        if (root == null) return null;
+        if (root == null)
+            return null;
 
         TreeNode left = invertTree(root.left);
         TreeNode right = invertTree(root.right);

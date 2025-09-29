@@ -20,6 +20,7 @@ public class _141_Linked_List_Cycle {
         System.out.println(hasCycle(third1));
     }
 
+    @SuppressWarnings("unused")
     private static class ListNode {
         int val;
         ListNode next;
@@ -31,7 +32,7 @@ public class _141_Linked_List_Cycle {
     }
 
     private static boolean hasCycle(ListNode head) {
-        if(head == null || head.next == null){
+        if (head == null || head.next == null) {
             return false;
         }
 
@@ -39,7 +40,7 @@ public class _141_Linked_List_Cycle {
         ListNode fast = head.next;
 
         while (fast != null && fast.next != null) {
-            if(slow == fast){
+            if (slow == fast) {
                 return true;
             }
             slow = slow.next;
