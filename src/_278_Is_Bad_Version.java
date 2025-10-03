@@ -17,7 +17,6 @@ public class _278_Is_Bad_Version {
     }
 
     private boolean isBadVersion(int mid) {
-        // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'isBadVersion'");
     }
 }
