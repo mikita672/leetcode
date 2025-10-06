@@ -30,11 +30,7 @@ public class _345_Revers_Vowels_of_a_String {
     }
 
     private static boolean isVovel(char s) {
-        if (s == 'a' || s == 'A' || s == 'e' || s == 'E' || s == 'i' || s == 'I' || s == 'o' || s == 'O' || s == 'u'
-                || s == 'U') {
-            return true;
-        } else {
-            return false;
-        }
+        return s == 'a' || s == 'A' || s == 'e' || s == 'E' || s == 'i' || s == 'I' || s == 'o' || s == 'O' || s == 'u'
+                || s == 'U';
     }
 }
